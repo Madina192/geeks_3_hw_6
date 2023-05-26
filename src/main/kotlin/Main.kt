@@ -1,8 +1,9 @@
-fun main(args: Array<String>) {
-    println(getSum(10, 7, '*'))
+fun main() {
+    println(getResult(10, 7, '*'))
+    println(getResult(120, 6, '/'))
 }
 //1
-fun getSum(a : Int, b : Int, operator : Char) : Int {
+fun getResult(a : Int, b : Int, operator : Char) : Int {
     return when (operator) {
         '+' -> a + b
         '-' -> a - b
