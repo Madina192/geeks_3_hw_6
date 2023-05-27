@@ -14,3 +14,6 @@ fun getResult(a : Int, b : Int, operator : Char) : Int {
 }
 
 //2
+fun getName() : String {
+    return ""
+}
